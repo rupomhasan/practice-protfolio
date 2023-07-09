@@ -1,0 +1,38 @@
+/* common shared style */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  display: flex;
+}
+.head-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+.orange-color {
+  color: orange;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(70, 69, 69);
+}
+.main-btn {
+  width: 90px;
+  height: 33px;
+  background-color: rgba(248, 63, 7, 0.952);
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+.main-btn:hover {
+  background-color: red;
+  font-weight: bold;
+  transition: 0.5s;
+}
