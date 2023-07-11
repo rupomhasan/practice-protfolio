@@ -146,6 +146,46 @@ main {
   width: 170px;
   height: 300px;
   border-radius: 5px;
-  /* background-color: antiquewhite; */
-  box-shadow: 100px 10px 20px 5px rosybrown;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-column {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.resume-education {
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px;
+}
+
+#position {
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(248, 63, 7, 0.952);
+}
+/* this is footer section */
+.footer-container {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: space-around;
+  padding-top: 100px;
+  background-color: #fff8f3;
+  margin-top: 20px;
+}
+.contact input[type='text'],
+.contact input[type='email'],
+textarea {
+  display: flex;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  border: 0px;
+  border-radius: 5px;
+  width: 100%;
 }
